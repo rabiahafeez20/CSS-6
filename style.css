@@ -1092,7 +1092,24 @@ footer p{
     font-size: 18px;
 
     }
+.social-icons{
+ position: absolute;
+  top: 85px;
+  right: 16px;
+  transform: none;
+  flex-direction: row;
+  gap: 8px;
+  z-index: 999;
+}
+.social-icons a {
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  }
 
+  .social-icons i {
+  font-size: 15px;
+  }
  }
 .social-icons{
     display: flex;
