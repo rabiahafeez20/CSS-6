@@ -79,7 +79,7 @@ body{
     padding-right: 15px;
     transition: 0.3s ease;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .navbar{
         justify-content: space-between;
         padding: 18px 20px;
@@ -87,7 +87,7 @@ body{
     }
     .hamburger{
         display: block;
-        font-size: 22px;
+        font-size: 25px;
         color: #323232;
         order: 2;
     }
@@ -109,7 +109,7 @@ body{
         display: none;
     }
     .nav-right i{
-        font-size: 22px;
+        font-size: 25px;
      
     }
 
@@ -197,7 +197,7 @@ h3{
     letter-spacing: 0.18em
    
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .hero-top{
         font-size: 18px;
         justify-self: center;
@@ -308,7 +308,7 @@ h4{
     margin-top: 30px;
     margin-bottom: 40px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .feature-box{
     min-height: 75vh;
      padding: 50px 10px 30px 10px;
@@ -422,7 +422,7 @@ h4{
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .booking-box{
         min-height:75vh;
         padding: 50px 10px 0px 10px;
@@ -491,7 +491,7 @@ h4{
     padding-left: 250px;
     padding-right: 250px;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:480px) {
     .section-4{
         min-height: auto;
         background-size: cover;
@@ -548,7 +548,7 @@ h4{
      padding-right: 250px;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:480px) {
     .section-5{
        min-height: auto;
         background-size: cover;
@@ -631,7 +631,7 @@ background: rgba(0, 0, 0, 0.55);
 .gallery-item:hover .gallery-overlay p {
   transform: translateY(0);
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:480px) {
     .gallery-box{
         height: auto;
     }
@@ -763,7 +763,7 @@ background: rgba(0, 0, 0, 0.55);
     margin-top: 20px;
 
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:480px) {
     .newsletter-box{
         height: auto;
         padding: 0px 20px;
@@ -923,7 +923,7 @@ background: rgba(0, 0, 0, 0.55);
      text-align: center;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 480px) {
 
   .contact-box {
     padding: 60px 20px 45px;
@@ -1013,7 +1013,7 @@ footer p{
     text-align: center;
 }
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 480px) {
     footer p{
     padding-top: 20px;
     font-size: 18px;
