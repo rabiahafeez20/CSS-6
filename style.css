@@ -7,9 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
-    cursor: pointer;
-}
+  }
 .hamburger{
     display: none;
 }
@@ -1018,6 +1016,7 @@ footer p{
     font-size: 18px;
 
     }
+
  }
 .social-icons{
     display: flex;
@@ -1245,7 +1244,8 @@ footer p{
   }
 
   .gallery-items {
-    grid-template-columns: 1fr;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
   }
 
   .gallery-item {
